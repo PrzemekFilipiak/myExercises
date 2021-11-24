@@ -33,7 +33,7 @@ public class Ex11_extra {
         System.out.println("inne sortowanie");
         int temp = 0;    //Temporary variable to store the element
         for (int i = 0; i < arr.length; i++) {  //Holds each Array element
-            for (int j = i+1; j < arr.length - 1; j++) {   //compares with remaining Array elements
+            for (int j = i+1; j < arr.length; j++) {   //compares with remaining Array elements
                 if(arr[i] > arr[j]) {//Compare and swap
                     temp = arr[i];
                     arr[i] = arr[j];
